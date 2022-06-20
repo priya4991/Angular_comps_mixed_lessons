@@ -1,0 +1,10 @@
+<div class="ui placeholder segment">
+    <div class="ui icon header">
+       <ng-content select="header"></ng-content>
+    </div>
+    <ng-content></ng-content>
+    <!-- <ng-content select=".tester"></ng-content> -->
+</div>
+
+<!-- ng-content takes any content or markup (HTML elements, pipes, directives) inside the parent (in this case app-segment) tags -->
+<!-- in a single component template, we can only have ONE DEFAULT ng-content tag -->

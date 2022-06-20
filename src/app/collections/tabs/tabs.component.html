@@ -1,0 +1,17 @@
+<div class="ui grid">
+    <div class="four wide column">
+        <div class="ui vertical fluid tabular menu">
+            <!-- routerLink points to relative paths similar to file structure -->
+            <!-- an array to routerLink helps build up a url with the array elements -->
+            <!-- routerLinkActiveOptions.exact = true means the path needs to match exactly -->
+            <ng-content></ng-content>
+        </div>
+    </div>
+    <div class="twelve wide stretched column">
+        <div class="ui segment">
+            <!-- router-outlet checks the routes of the component and -->
+            <!-- shows the content of the matching route -->
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>

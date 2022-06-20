@@ -1,5 +1,25 @@
 # Comps
 
+This project features the following concepts - 
+ -- Custom components
+ -- Custom modules and concepts
+ -- Custom structural directives
+ -- Routes and subrouting
+ -- Lazy loading modules
+ -- Reusable shared widgets
+ -- Ng-content concepts
+ -- Attribute directives
+ -- Interpolation
+ -- Importing global CSS files
+ -- Loading static images
+ -- Host component CSS (:host)
+ -- Lifecycle hooks
+ -- OnInit interface discussion
+ -- Parent-to-child communication
+ -- Child-to-parent communication
+ -- Stopping event bubbling
+ 
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.7.
 
 ## Development server

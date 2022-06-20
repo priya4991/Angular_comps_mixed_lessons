@@ -1,0 +1,12 @@
+.actions:empty {
+    display: none;
+}
+
+.actions-default {
+    display: none;
+}
+
+/* this rule applies to .actions-default div */ 
+.actions:empty + .actions-default {
+    display: block;
+}

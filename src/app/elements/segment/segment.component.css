@@ -1,0 +1,4 @@
+div.ui.icon.header:empty {
+    /* if this div has nothing inside, ie. it is empty, show display none  */
+    display: none
+}
