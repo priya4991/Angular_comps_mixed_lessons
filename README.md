@@ -4,6 +4,7 @@ This project features the following concepts -
  -- Custom components
  -- Custom modules and concepts
  -- Custom structural directives
+ -- Using 'set' keyword
  -- Routes and subrouting
  -- Lazy loading modules
  -- Reusable shared widgets
